@@ -33,7 +33,7 @@ NSString * easterEgg = NULL;
 }
 
 - (NSString *)getFloorImage:(int)floorNumber {
-    NSArray *floorImages = @[@"k-1.jpg", @"k+0.jpg", @"k+1.jpg", @"k+2.jpg", @"k+3.jpg", @"k+4.jpg"];
+    NSArray *floorImages = @[@"Images/k-1.jpg", @"Images/k+0.jpg", @"Images/k+1.jpg", @"Images/k+2.jpg", @"Images/k+3.jpg", @"Images/k+4.jpg"];
     return floorImages[floorNumber];
 }
 
@@ -67,15 +67,15 @@ NSString * easterEgg = NULL;
     Boolean chris = ABS(headRotation.pitch + 8) <= 5 && (ABS(headRotation.yaw - 167)) <= 5 && officeFloor == 4;
     
     if (seb) {
-      easterEgg = @"seb.jpg";
+      easterEgg = @"Images/seb.jpg";
     } else if (luke) {
-      easterEgg = @"luke.jpg";
+      easterEgg = @"Images/luke.jpg";
     } else if (chris) {
-      easterEgg = @"chris.jpg";
+      easterEgg = @"Images/chris.jpg";
     } else if (scott) {
-      easterEgg = @"scott.jpg";
+      easterEgg = @"Images/scott.jpg";
     } else if (k2Door) {
-      easterEgg = @"k+2door.jpg";
+      easterEgg = @"Images/k+2door.jpg";
     }
 
     return easterEgg != NULL;
