@@ -1,7 +1,7 @@
 #import "PanoramaViewController.h"
 #import "GVRPanoramaView.h"
 
-int officeFloor = 0;
+int officeFloor = 1;
 NSString * easterEgg = NULL;
 
 @interface PanoramaViewController ()<GVRWidgetViewDelegate>
@@ -33,14 +33,14 @@ NSString * easterEgg = NULL;
 }
 
 - (NSString *)getFloorImage:(int)floorNumber {
-    NSArray *floorImages = @[@"k+0.jpg", @"k+1.jpg", @"k+2.jpg", @"k+3.jpg"];
+    NSArray *floorImages = @[@"k-1.jpg", @"k+0.jpg", @"k+1.jpg", @"k+2.jpg", @"k+3.jpg", @"k+4.jpg"];
     return floorImages[floorNumber];
 }
 
 - (Boolean)transitionFloor:(float) pitchAngle {
     Boolean changed = false;
     if (_panoView.headRotation.pitch >= 40) {
-        if (officeFloor < 3) {
+        if (officeFloor < 5) {
             officeFloor++;
             changed = true;
         }
@@ -60,11 +60,11 @@ NSString * easterEgg = NULL;
         return false;
     }
     
-    Boolean seb = ABS(headRotation.pitch) <= 5 && (ABS(headRotation.yaw + 122)) <= 5 && officeFloor == 1;
-    Boolean luke = ABS(headRotation.pitch) <= 5 && (ABS(headRotation.yaw + 146)) <= 5 && officeFloor == 1;
-    Boolean scott = ABS(headRotation.pitch - 6) <= 5 && (ABS(headRotation.yaw + 155)) <= 5 && officeFloor == 2;
-    Boolean k2Door = ABS(headRotation.pitch - 7) <= 7 && (ABS(headRotation.yaw - 164)) <= 5 && officeFloor == 2;
-    Boolean chris = ABS(headRotation.pitch + 8) <= 5 && (ABS(headRotation.yaw - 167)) <= 5 && officeFloor == 3;
+    Boolean seb = ABS(headRotation.pitch) <= 5 && (ABS(headRotation.yaw + 122)) <= 5 && officeFloor == 2;
+    Boolean luke = ABS(headRotation.pitch) <= 5 && (ABS(headRotation.yaw + 146)) <= 5 && officeFloor == 2;
+    Boolean scott = ABS(headRotation.pitch - 6) <= 5 && (ABS(headRotation.yaw + 155)) <= 5 && officeFloor == 3;
+    Boolean k2Door = ABS(headRotation.pitch - 7) <= 7 && (ABS(headRotation.yaw - 164)) <= 5 && officeFloor == 3;
+    Boolean chris = ABS(headRotation.pitch + 8) <= 5 && (ABS(headRotation.yaw - 167)) <= 5 && officeFloor == 4;
     
     if (seb) {
       easterEgg = @"seb.jpg";
@@ -87,8 +87,5 @@ NSString * easterEgg = NULL;
     } else if ([self easterEggTransition:_panoView.headRotation]) {
       [self updateImageView:easterEgg];
     }
-
-    NSLog(@(_panoView.headRotation.pitch).stringValue);
-    NSLog(@(_panoView.headRotation.yaw).stringValue);
 }
 @end

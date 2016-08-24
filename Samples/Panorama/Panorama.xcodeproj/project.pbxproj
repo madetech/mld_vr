@@ -25,6 +25,8 @@
 		F5B807AE1D6DE3830083BBF9 /* luke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B807AD1D6DE3830083BBF9 /* luke.jpg */; };
 		F5B807B01D6DE8B80083BBF9 /* scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B807AF1D6DE8B80083BBF9 /* scott.jpg */; };
 		F5B807B21D6DE9E30083BBF9 /* k+2door.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B807B11D6DE9E30083BBF9 /* k+2door.jpg */; };
+		F5B807B41D6DF34B0083BBF9 /* k+4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B807B31D6DF34B0083BBF9 /* k+4.jpg */; };
+		F5B807B61D6DF3950083BBF9 /* k-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5B807B51D6DF3950083BBF9 /* k-1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		F5B807AD1D6DE3830083BBF9 /* luke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = luke.jpg; sourceTree = SOURCE_ROOT; };
 		F5B807AF1D6DE8B80083BBF9 /* scott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scott.jpg; sourceTree = SOURCE_ROOT; };
 		F5B807B11D6DE9E30083BBF9 /* k+2door.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "k+2door.jpg"; sourceTree = SOURCE_ROOT; };
+		F5B807B31D6DF34B0083BBF9 /* k+4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "k+4.jpg"; sourceTree = SOURCE_ROOT; };
+		F5B807B51D6DF3950083BBF9 /* k-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "k-1.jpg"; sourceTree = SOURCE_ROOT; };
 		FDCFA66A261C37AA7067B238 /* Pods-Panorama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panorama.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Panorama/Pods-Panorama.debug.xcconfig"; sourceTree = "<group>"; };
 		FED46F4CCBF34578C4B49639 /* Pods-Panorama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panorama.release.xcconfig"; path = "Pods/Target Support Files/Pods-Panorama/Pods-Panorama.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -90,8 +94,10 @@
 				F5B807B11D6DE9E30083BBF9 /* k+2door.jpg */,
 				F5B807A71D6DD5660083BBF9 /* k+1.jpg */,
 				F5B807A11D6DD54C0083BBF9 /* k+0.jpg */,
+				F5B807B51D6DF3950083BBF9 /* k-1.jpg */,
 				F5B807A21D6DD54C0083BBF9 /* k+2.jpg */,
 				F5B807AB1D6DE2C60083BBF9 /* chris.jpg */,
+				F5B807B31D6DF34B0083BBF9 /* k+4.jpg */,
 				F5B807AD1D6DE3830083BBF9 /* luke.jpg */,
 				F5B807AF1D6DE8B80083BBF9 /* scott.jpg */,
 				F5B807A31D6DD54C0083BBF9 /* k+3.jpg */,
@@ -202,8 +208,10 @@
 				F5B807AE1D6DE3830083BBF9 /* luke.jpg in Resources */,
 				1237A4E91C81369E00AD3514 /* Assets.xcassets in Resources */,
 				1237A4EB1C81369E00AD3514 /* Panorama-Info.plist in Resources */,
+				F5B807B41D6DF34B0083BBF9 /* k+4.jpg in Resources */,
 				F5B807A61D6DD54C0083BBF9 /* k+3.jpg in Resources */,
 				F5B807A41D6DD54C0083BBF9 /* k+0.jpg in Resources */,
+				F5B807B61D6DF3950083BBF9 /* k-1.jpg in Resources */,
 				F5B807AC1D6DE2C60083BBF9 /* chris.jpg in Resources */,
 				1237A4EA1C81369E00AD3514 /* launch.xib in Resources */,
 				F5B807A81D6DD5660083BBF9 /* k+1.jpg in Resources */,
