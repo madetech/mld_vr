@@ -17,17 +17,9 @@ int officeFloor = 0;
 }
 
 - (NSString *)getFloorImage:(int)floorNumber {
-    switch (floorNumber) {
-        case 3:
-            return @"andes.jpg";
-        case 2:
-            return @"k+1.jpeg";
-        case 1:
-            return @"andes.jpg";
-        case 0:
-        default:
-            return @"k+1.jpeg";
-    }
+    NSArray *floorImages = @[@"k+1.jpeg", @"andes.jpg", @"k+1.jpeg", @"andes.jpg"];
+    return floorImages[floorNumber];
+
 }
 
 - (void)loadView {
