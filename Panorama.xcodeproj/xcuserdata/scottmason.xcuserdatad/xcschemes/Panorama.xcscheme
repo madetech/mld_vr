@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "12C25C4E1C6177690017AF9D"
-               BuildableName = "Panorama.app"
+               BuildableName = "Made Cribs.app"
                BlueprintName = "Panorama"
                ReferencedContainer = "container:Panorama.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "12C25C4E1C6177690017AF9D"
-            BuildableName = "Panorama.app"
+            BuildableName = "Made Cribs.app"
             BlueprintName = "Panorama"
             ReferencedContainer = "container:Panorama.xcodeproj">
          </BuildableReference>
@@ -56,7 +56,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "12C25C4E1C6177690017AF9D"
-            BuildableName = "Panorama.app"
+            BuildableName = "Made Cribs.app"
             BlueprintName = "Panorama"
             ReferencedContainer = "container:Panorama.xcodeproj">
          </BuildableReference>
@@ -75,7 +75,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "12C25C4E1C6177690017AF9D"
-            BuildableName = "Panorama.app"
+            BuildableName = "Made Cribs.app"
             BlueprintName = "Panorama"
             ReferencedContainer = "container:Panorama.xcodeproj">
          </BuildableReference>
