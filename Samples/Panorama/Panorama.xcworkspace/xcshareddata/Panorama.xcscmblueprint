@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "90FF46146B3B524517BF230C0A6D8B8298FDEF1D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "90FF46146B3B524517BF230C0A6D8B8298FDEF1D" : 0,
+    "99288EA2150514021D40EA929BCCF54B8B35110F" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "81F04C5C-4099-4A7C-AF3A-AF4F9ECE2827",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "90FF46146B3B524517BF230C0A6D8B8298FDEF1D" : "cardboard_trial\/",
+    "99288EA2150514021D40EA929BCCF54B8B35110F" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Panorama",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Samples\/Panorama\/Panorama.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:madetech\/mld_vr.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "90FF46146B3B524517BF230C0A6D8B8298FDEF1D"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/madebymade\/vagrant-dev.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "99288EA2150514021D40EA929BCCF54B8B35110F"
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0945F34CE6C92EDE6BFBE35846F2339A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		9F1ABE8445A0F9BDA4A51ABA80012968 /* Pods-Panorama-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7265D1E1356A5D4DDBE26F09C70E9727 /* Pods-Panorama-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0DE4FEE9C2BCFFC5FAF098117981A916 /* Pods-Panorama-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Panorama-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E914AE8190EC4CAABD51B1A1167C024 /* libCardboardSDK_i386.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_i386.a; path = Libraries/libCardboardSDK_i386.a; sourceTree = "<group>"; };
+		1308A9E6003FED03D853626C8304FBE5 /* gvr.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gvr.h; path = Sources/vr/gvr/capi/include/gvr.h; sourceTree = "<group>"; };
+		13D21622CD883A13F6D59A2D06FCF756 /* GVRWidgetView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRWidgetView.h; path = Sources/GVRWidgetView.h; sourceTree = "<group>"; };
+		15FA35C40E92736321C9AF922776DE17 /* Pods-Panorama-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Panorama-resources.sh"; sourceTree = "<group>"; };
+		21957BE7B61C132978ADC70EFB9C8AC0 /* libPods-Panorama.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Panorama.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C261DA5A5F14657765FF3FF02900B75 /* GoogleKitDialogs.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitDialogs.bundle; path = Resources/GoogleKitDialogs.bundle; sourceTree = "<group>"; };
+		336572154D5DD33ECE5FE023C5615BF5 /* GVRVideoView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRVideoView.h; path = Sources/GVRVideoView.h; sourceTree = "<group>"; };
+		341D16739A834F982E7C605D2E347792 /* GoogleKitHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitHUD.bundle; path = Resources/GoogleKitHUD.bundle; sourceTree = "<group>"; };
+		4F9D2A2E25790E2A188235C357685D1D /* GVRAudioEngine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRAudioEngine.h; path = Sources/GVRAudioEngine.h; sourceTree = "<group>"; };
+		5AC08A200E33231216C8EF758B3E6E96 /* GoogleKitCore.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleKitCore.bundle; path = Resources/GoogleKitCore.bundle; sourceTree = "<group>"; };
+		5C9A062FC3DDA037B8A1D00FB79AD656 /* Pods-Panorama-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Panorama-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6E821D74181FD9A04EB9198FD726BAA4 /* CardboardSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = CardboardSDK.bundle; path = Resources/CardboardSDK.bundle; sourceTree = "<group>"; };
+		7265D1E1356A5D4DDBE26F09C70E9727 /* Pods-Panorama-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Panorama-dummy.m"; sourceTree = "<group>"; };
+		78D562056705C9DD5A013F9F7FEB9C0D /* libCardboardSDK_x86_64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_x86_64.a; path = Libraries/libCardboardSDK_x86_64.a; sourceTree = "<group>"; };
+		7E5CA8963144622B1A4E5D97E0256F59 /* MaterialRobotoFontLoader.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MaterialRobotoFontLoader.bundle; path = Resources/MaterialRobotoFontLoader.bundle; sourceTree = "<group>"; };
+		7EB798464570049F365638DE7F43ABE7 /* GVRHeadTransform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRHeadTransform.h; path = Sources/GVRHeadTransform.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9B32CE4143F7605CC96853AA86AA9C41 /* GVRPanoramaView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRPanoramaView.h; path = Sources/GVRPanoramaView.h; sourceTree = "<group>"; };
+		AB50EE9A260C011FB5743F1D74430A60 /* libCardboardSDK_armv7.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_armv7.a; path = Libraries/libCardboardSDK_armv7.a; sourceTree = "<group>"; };
+		AD60E85927ABCCDEF16995BD2D9827A9 /* gvr_audio.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gvr_audio.h; path = Sources/vr/gvr/capi/include/gvr_audio.h; sourceTree = "<group>"; };
+		AE3D92687510053F44ACF2EDDDB71AA2 /* libCardboardSDK_arm64.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCardboardSDK_arm64.a; path = Libraries/libCardboardSDK_arm64.a; sourceTree = "<group>"; };
+		BD9EC5B276C0FC1832A1BEB97519262D /* Pods-Panorama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Panorama.debug.xcconfig"; sourceTree = "<group>"; };
+		C362AA6346B8C737247671364506ADF5 /* gvr_types.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = gvr_types.h; path = Sources/vr/gvr/capi/include/gvr_types.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D3383CDD67A64BB5E81DCA8A0EE58542 /* Pods-Panorama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Panorama.release.xcconfig"; sourceTree = "<group>"; };
+		D4819567539565C5FA11F17B2361263A /* Pods-Panorama-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Panorama-frameworks.sh"; sourceTree = "<group>"; };
+		E2EF9F8254B4A2165E95E8FC81901DC0 /* GVROverlayView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVROverlayView.h; path = Sources/GVROverlayView.h; sourceTree = "<group>"; };
+		E5C8AD3B74695625C2623A917820CBE3 /* GVRCardboardView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GVRCardboardView.h; path = Sources/GVRCardboardView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0123E2CAE991701556C8614AEF327E04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0945F34CE6C92EDE6BFBE35846F2339A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30279018F78796003C536AFE46ABAA21 /* Pods-Panorama */ = {
+			isa = PBXGroup;
+			children = (
+				5C9A062FC3DDA037B8A1D00FB79AD656 /* Pods-Panorama-acknowledgements.markdown */,
+				0DE4FEE9C2BCFFC5FAF098117981A916 /* Pods-Panorama-acknowledgements.plist */,
+				7265D1E1356A5D4DDBE26F09C70E9727 /* Pods-Panorama-dummy.m */,
+				D4819567539565C5FA11F17B2361263A /* Pods-Panorama-frameworks.sh */,
+				15FA35C40E92736321C9AF922776DE17 /* Pods-Panorama-resources.sh */,
+				BD9EC5B276C0FC1832A1BEB97519262D /* Pods-Panorama.debug.xcconfig */,
+				D3383CDD67A64BB5E81DCA8A0EE58542 /* Pods-Panorama.release.xcconfig */,
+			);
+			name = "Pods-Panorama";
+			path = "Target Support Files/Pods-Panorama";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		543135C0F9571A6BEC40FC62563593F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21957BE7B61C132978ADC70EFB9C8AC0 /* libPods-Panorama.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				F8F7F280B5A3796FC16DADC50D64965C /* Pods */,
+				543135C0F9571A6BEC40FC62563593F9 /* Products */,
+				F6F8BFF76A6B58EB00B84D56DBFEE9A8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7E011BA775C56E142A3A31006E31486B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D92687510053F44ACF2EDDDB71AA2 /* libCardboardSDK_arm64.a */,
+				AB50EE9A260C011FB5743F1D74430A60 /* libCardboardSDK_armv7.a */,
+				0E914AE8190EC4CAABD51B1A1167C024 /* libCardboardSDK_i386.a */,
+				78D562056705C9DD5A013F9F7FEB9C0D /* libCardboardSDK_x86_64.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB4F456F1DB805513798EB0637042E05 /* GVRSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1308A9E6003FED03D853626C8304FBE5 /* gvr.h */,
+				AD60E85927ABCCDEF16995BD2D9827A9 /* gvr_audio.h */,
+				C362AA6346B8C737247671364506ADF5 /* gvr_types.h */,
+				4F9D2A2E25790E2A188235C357685D1D /* GVRAudioEngine.h */,
+				E5C8AD3B74695625C2623A917820CBE3 /* GVRCardboardView.h */,
+				7EB798464570049F365638DE7F43ABE7 /* GVRHeadTransform.h */,
+				E2EF9F8254B4A2165E95E8FC81901DC0 /* GVROverlayView.h */,
+				9B32CE4143F7605CC96853AA86AA9C41 /* GVRPanoramaView.h */,
+				336572154D5DD33ECE5FE023C5615BF5 /* GVRVideoView.h */,
+				13D21622CD883A13F6D59A2D06FCF756 /* GVRWidgetView.h */,
+				7E011BA775C56E142A3A31006E31486B /* Frameworks */,
+				C613FA146C88D1C11A0A98CE2FC22AFA /* Resources */,
+			);
+			path = GVRSDK;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C613FA146C88D1C11A0A98CE2FC22AFA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6E821D74181FD9A04EB9198FD726BAA4 /* CardboardSDK.bundle */,
+				5AC08A200E33231216C8EF758B3E6E96 /* GoogleKitCore.bundle */,
+				2C261DA5A5F14657765FF3FF02900B75 /* GoogleKitDialogs.bundle */,
+				341D16739A834F982E7C605D2E347792 /* GoogleKitHUD.bundle */,
+				7E5CA8963144622B1A4E5D97E0256F59 /* MaterialRobotoFontLoader.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F6F8BFF76A6B58EB00B84D56DBFEE9A8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				30279018F78796003C536AFE46ABAA21 /* Pods-Panorama */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F8F7F280B5A3796FC16DADC50D64965C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB4F456F1DB805513798EB0637042E05 /* GVRSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41265E81D0F19B3894E127DBD81D520A /* Pods-Panorama */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C738B42F6E042490F1F620D67424CEC /* Build configuration list for PBXNativeTarget "Pods-Panorama" */;
+			buildPhases = (
+				372130E73A4D4582F0805C6F29439481 /* Sources */,
+				0123E2CAE991701556C8614AEF327E04 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Panorama";
+			productName = "Pods-Panorama";
+			productReference = 21957BE7B61C132978ADC70EFB9C8AC0 /* libPods-Panorama.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 543135C0F9571A6BEC40FC62563593F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41265E81D0F19B3894E127DBD81D520A /* Pods-Panorama */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372130E73A4D4582F0805C6F29439481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F1ABE8445A0F9BDA4A51ABA80012968 /* Pods-Panorama-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		748021A78DB19E45AE6581929E6C3758 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9EC5B276C0FC1832A1BEB97519262D /* Pods-Panorama.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		84FD87D359382A37B07149A12641B965 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D07FEB2DE454FFE778958078E6AC8479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3383CDD67A64BB5E81DCA8A0EE58542 /* Pods-Panorama.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F594C655D48020EC34B00AA63E001773 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84FD87D359382A37B07149A12641B965 /* Debug */,
+				F594C655D48020EC34B00AA63E001773 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C738B42F6E042490F1F620D67424CEC /* Build configuration list for PBXNativeTarget "Pods-Panorama" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				748021A78DB19E45AE6581929E6C3758 /* Debug */,
+				D07FEB2DE454FFE778958078E6AC8479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

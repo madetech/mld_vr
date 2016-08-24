@@ -14,6 +14,8 @@
 		1237A4E91C81369E00AD3514 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1237A4E61C81369E00AD3514 /* Assets.xcassets */; };
 		1237A4EA1C81369E00AD3514 /* launch.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1237A4E71C81369E00AD3514 /* launch.xib */; };
 		1237A4EB1C81369E00AD3514 /* Panorama-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1237A4E81C81369E00AD3514 /* Panorama-Info.plist */; };
+		9FEF332F230E9696068F12E3 /* libPods-Panorama.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA18B2B77162464178175EAB /* libPods-Panorama.a */; };
+		F5B8079A1D6DAF390083BBF9 /* k+1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = F5B807991D6DAF390083BBF9 /* k+1.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,10 @@
 		1237A4E71C81369E00AD3514 /* launch.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = launch.xib; sourceTree = SOURCE_ROOT; };
 		1237A4E81C81369E00AD3514 /* Panorama-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Panorama-Info.plist"; sourceTree = SOURCE_ROOT; };
 		12C25C4F1C6177690017AF9D /* Panorama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Panorama.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA18B2B77162464178175EAB /* libPods-Panorama.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Panorama.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5B807991D6DAF390083BBF9 /* k+1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "k+1.jpeg"; sourceTree = SOURCE_ROOT; };
+		FDCFA66A261C37AA7067B238 /* Pods-Panorama.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panorama.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Panorama/Pods-Panorama.debug.xcconfig"; sourceTree = "<group>"; };
+		FED46F4CCBF34578C4B49639 /* Pods-Panorama.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Panorama.release.xcconfig"; path = "Pods/Target Support Files/Pods-Panorama/Pods-Panorama.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FEF332F230E9696068F12E3 /* libPods-Panorama.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,6 +52,8 @@
 			children = (
 				12C25C511C6177690017AF9D /* Panorama */,
 				12C25C501C6177690017AF9D /* Products */,
+				8ED5AA3B668FC3EF35ED800B /* Pods */,
+				A4CDCF2A43FB2154A52F7A82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,6 +68,7 @@
 		12C25C511C6177690017AF9D /* Panorama */ = {
 			isa = PBXGroup;
 			children = (
+				F5B807991D6DAF390083BBF9 /* k+1.jpeg */,
 				1237A4E61C81369E00AD3514 /* Assets.xcassets */,
 				1237A4E71C81369E00AD3514 /* launch.xib */,
 				1237A4E81C81369E00AD3514 /* Panorama-Info.plist */,
@@ -80,6 +90,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		8ED5AA3B668FC3EF35ED800B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FDCFA66A261C37AA7067B238 /* Pods-Panorama.debug.xcconfig */,
+				FED46F4CCBF34578C4B49639 /* Pods-Panorama.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4CDCF2A43FB2154A52F7A82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA18B2B77162464178175EAB /* libPods-Panorama.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -87,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 12C25C661C6177690017AF9D /* Build configuration list for PBXNativeTarget "Panorama" */;
 			buildPhases = (
+				2D031B73D71F15A203624D3B /* [CP] Check Pods Manifest.lock */,
 				12C25C4B1C6177690017AF9D /* Sources */,
 				12C25C4C1C6177690017AF9D /* Frameworks */,
 				12C25C4D1C6177690017AF9D /* Resources */,
+				7AF40C1FBAA6CC59DF649164 /* [CP] Embed Pods Frameworks */,
+				67FC6C3185E9E67F42A0CDBA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +140,7 @@
 				TargetAttributes = {
 					12C25C4E1C6177690017AF9D = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 2LZ3AEC6R2;
 					};
 				};
 			};
@@ -140,10 +171,59 @@
 				1237A4EB1C81369E00AD3514 /* Panorama-Info.plist in Resources */,
 				1237A4EA1C81369E00AD3514 /* launch.xib in Resources */,
 				1237A4E51C81357500AD3514 /* andes.jpg in Resources */,
+				F5B8079A1D6DAF390083BBF9 /* k+1.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D031B73D71F15A203624D3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67FC6C3185E9E67F42A0CDBA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Panorama/Pods-Panorama-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AF40C1FBAA6CC59DF649164 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Panorama/Pods-Panorama-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		12C25C4B1C6177690017AF9D /* Sources */ = {
@@ -241,25 +321,33 @@
 		};
 		12C25C671C6177690017AF9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDCFA66A261C37AA7067B238 /* Pods-Panorama.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Panorama-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.Panorama;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Panaroma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		12C25C681C6177690017AF9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FED46F4CCBF34578C4B49639 /* Pods-Panorama.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Panorama-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.Panorama;
+				PRODUCT_BUNDLE_IDENTIFIER = Personal.Panaroma;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
