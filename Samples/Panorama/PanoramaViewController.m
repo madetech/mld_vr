@@ -63,7 +63,7 @@ NSString * easterEgg = NULL;
     Boolean seb = ABS(headRotation.pitch) <= 5 && (ABS(headRotation.yaw + 122)) <= 5 && officeFloor == 1;
     Boolean luke = ABS(headRotation.pitch) <= 5 && (ABS(headRotation.yaw + 146)) <= 5 && officeFloor == 1;
     Boolean scott = ABS(headRotation.pitch - 6) <= 5 && (ABS(headRotation.yaw + 155)) <= 5 && officeFloor == 2;
-    Boolean k2Door = ABS(headRotation.pitch - 10) <= 10 && (ABS(headRotation.yaw - 164)) <= 5 && officeFloor == 2;
+    Boolean k2Door = ABS(headRotation.pitch - 7) <= 7 && (ABS(headRotation.yaw - 164)) <= 5 && officeFloor == 2;
     Boolean chris = ABS(headRotation.pitch + 8) <= 5 && (ABS(headRotation.yaw - 167)) <= 5 && officeFloor == 3;
     
     if (seb) {
